@@ -9,8 +9,8 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
-const songs = ['box', 'mockingbird', 'fein'];
-let songIndex = 2;
+const songs = ['box', 'mockingbird', 'fein', 'calm down', 'lucid dreams'];
+let songIndex = 4;
 loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
